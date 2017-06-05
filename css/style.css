@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Josefin+Sans|Josefin+Slab|Lato|Roboto|Sahitya');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+*{box-sizing: border-box;}
+body {
+	font-size: 16px;
+	margin: 0;
+}
+header {
+	display: inline-block;
+	width: 100%;
+	border-bottom: 0.0156em solid #8D9691;
+}
+label {
+	display: none;
+	margin: auto;
+	padding: 5% 0 2% 0;
+}
+#toggle {
+  		display: none;
+}
+nav {
+	float: left;
+	width: 50%;
+	margin-top: 40px;
+
+}
+.nav:hover {
+	opacity: 0.3;
+}
+.nav {
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 0.875em;
+	margin-left: 15%;
+	color: #5D92B1;
+	text-decoration: none;
+	font-weight: 580;
+}
+h1 {
+	font-family: "Book Antiqua", serif;
+	color: #5D92B1;
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+}
+h2 {
+	font-size: 1.375em;
+	font-family: "Myriad Pro", san-serif;
+}
+h3, h4 {
+	font-family: "Myriad Pro", san-serif;
+}
+p { 
+	font-family: "Book Antiqua", serif; 
+	font-weight: normal;
+	text-align: left;
+	text-decoration-color: none;
+	text-decoration-style: none;
+}
+#splash {
+	background: linear-gradient( rgba(241, 244, 245, 0.58), rgba(241, 244, 245, 0.58) ),url(../images/splash.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	margin-top: 0.5%;
+}
+#splash main {
+	width: 30%;
+	padding: 17% 0% 0% 1.6%;
+	text-align: center;
+	display: inline-block;
+	line-height: 2.0em;
+	font-size: 1em;
+}
+#splash h2 {
+	font-family: garamond;
+	font-weight: 700;
+	width: 100%;
+}
+#splash h3 {
+	padding-bottom: 5%;
+	font-weight: normal;
+	font-size: 1em;
+	font-family: "Book Antiqua", serif;
+}
+#splash button {
+	font-family: Futura;
+	font-size: 1.375em;
+	width: 100%;
+	background-color: #394B4B;
+	padding: 2.5%;
+	font-weight: 600;
+}
+#splash a:hover {
+	color: #5D92B1;
+	opacity: 0.9;
+}
+#splash a {
+	text-decoration: none;
+	color: white;
+}
+#splash h4 {
+	margin-bottom: 61%;
+	font-family: "Myriad Pro", san-serif;
+}
+#about {
+	background: linear-gradient( rgba(250, 250, 250, 0.34), rgba(250, 250, 250, 0.34)), url("../images/modernoffice.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+}
+#about article {
+	width: 35%;
+	height: 50%;
+	margin: 13% 0% 18% 2%;
+	background-color: #fafafa;
+	border-left: 0.25em double #8D9691;
+	border-top: 0.0156em solid #8D9691;
+	border-right: 0.0156em solid #8D9691;
+	border-bottom: 0.0156em solid #8D9691;
+	padding: 1%;
+	line-height: 1.5em;
+}
+span#logo {
+	color: #5D92B1;
+}
+span#quote {
+	font-style: italic;
+}
+#about ol span {
+	font-size: 0.875em;
+	color: #394B4B;
+}
+#about ol {
+	font-size: 1.125em;
+	font-family: "Myriad Pro", san-serif;
+}
+#steps {
+	text-align: center;
+	background-color: white;
+	padding: 1.75%;
+	border-top: 0.0156em solid #8D9691;
+	border-bottom: 0.0156em solid #8D9691;
+}
+#steps h2 {
+	color: #5D92B1;
+	font-size: 1em;
+}
+#steps h3 {
+	font-size: 1.125em;
+	border-bottom: 0.0156em solid #8D9691;
+	padding-bottom: 4%;
+}
+#step-one {
+	padding: 1%;
+	background-color: white;
+	box-shadow: 0px 5px 10px .5px #8D9691;
+	margin: auto;
+	width: 45%;
+}
+#step-two {
+	padding: 1%;
+	background-color: white;
+	box-shadow: 0px 5px 10px .5px #8D9691;
+	margin: 2% auto;
+	width: 45%;
+}
+#steps p {
+	text-align: center;
+}
+#clientele {
+	text-align: center;
+	border-bottom: 0.0156em solid #8D9691;
+	padding: 3%;
+}
+#clientele h3 {
+	font-size: 1em;
+	width: 60%;
+	margin: 0 auto 4%;
+	line-height: 2.5em;
+}
+span#one {
+	font-family: "Myriad Pro";
+	font-weight: 200;
+}
+span#two {
+	font-family: "Josefin Sans";
+	font-size:-webkit-xxx-large;
+	color: lightblue;
+}
+span#three {
+	font-family: "Lato";
+	font-style: italic;
+}
+span#four {
+	font-family: "arial";
+	font-size: larger;
+	color: lightcoral;
+}
+span#five {
+	font-family: "Roboto";
+	font-size: 2em;
+}
+#clientele div {
+	display: inline-block;
+	padding-bottom: 4%;
+}
+#first-of-three {
+	align: left;
+	width: 20.5%;
+	border: 0.0156em solid #8D9691;
+	margin-right: 2%;
+}
+#second-of-three {
+	display: center;
+	width: 41%;
+	border: 0.0156em solid #8D9691;
+	margin-right: 2%;
+}
+#three-of-three {
+	display: right;
+	width: 22%;
+	border: 0.0156em solid #8D9691;
+}
+footer {
+	background-color: #FAFAFA;
+}
+footer a:hover {
+	opacity: 0.7;
+}
+#contact {
+	display: inline-block;
+	text-align: left;
+	width: 25%;
+	font-family: "Myriad Pro", san-serif;
+	font-size: 0.875em;
+	margin: 5% 0 7% 1%;
+}
+#location-addresses {
+	display: inline-block;
+	padding: 0% 2% 0% 20%;
+	width: 70%;
+}
+#location-addresses address {
+	font-style: normal;
+}
+#Baltimore {
+	display: inline-block;
+	font-size: 0.875em;
+}
+#San-Diego {
+	margin-left: 5%;
+	display: inline-block;
+	font-size: 0.875em;
+}
+#Miami {
+	margin-left: 5%;
+	display: inline-block;
+	font-size: 0.875em;
+}
+@media only screen and (max-width: 1350px) {
+	#about {
+		background-position: center center;
+	}
+}
+@media only screen and (max-width: 1320px) {
+	footer {
+		font-size: 0.8em;
+	}
+	#location-addresses {
+		display: inline-block;
+		padding: 0% 0% 0% 5%;
+		width: 55%;
+		margin-left: 10%;
+	}
+	#Baltimore {
+	display: inline-block;
+	}
+	#San-Diego {
+	margin-left: 5%;
+	display: inline-block;
+	}
+	#Miami {
+	margin-left: 5%;
+	display: inline-block;
+	}
+}
+@media only screen and (max-width: 1240px) {
+	#splash main {
+		width: 33%;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	#about article {
+		width: 35%;
+		height: 45%;
+		font-size: .9em;
+		padding: 0 2% 0 2%;
+		margin: 5%;
+	}
+	#about {
+		background-position: center 70%;
+	}
+}
+@media only screen and (max-width: 1150px) {
+	#splash main {
+		padding: 10% 0 0 2%;
+		font-size: 0.875em;
+	}
+	#splash button {
+		font-size: 1.1em;
+		padding: 7%;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	#about {
+		background-position: center 100%;
+		padding-bottom: 0;
+	}
+	#steps h2, #steps p {
+		font-size: 0.8em;
+	}
+	#steps h3 {
+		font-size: 1em;
+	} 
+	#steps p {
+		font-size: 0.8em;	
+	}
+	#step-one {
+		width: 50%;
+	}
+	#step-two {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 1005px) {
+	#splash {
+		background-position: 10% center;
+	}
+	#splash main {
+		width: 35%;
+	}
+	footer {
+		font-size: 0.7em;
+	}
+}
+@media only screen and (max-width: 940px){
+	#splash main {
+		padding: 10% 0 0 2%;
+		width: 40%;
+	}
+	#splash button {
+		font-size: 1.1em;
+		padding: 7%;
+	}
+	#about article {
+		width: 35%;
+		height: 45%;
+		font-size: .75em;
+		margin: 5%;
+	}
+	#about {
+		background-position: center center;
+	}
+}
+@media only screen and (max-width: 890px) {
+	#location-addresses {
+		display: inline-block;
+		padding: 0% 0% 0% 3%;
+		width: 65%;
+		margin-left: 5%;
+	}
+	#Baltimore {
+		display: inline-block;
+	}
+	#San-Diego {
+		margin-left: 3%;
+		display: inline-block;
+	}
+	#Miami {
+		margin-left: 3%;
+		display: inline-block;
+	}
+}
+@media only screen and (max-width: 830px) {
+	#steps h3 {
+		font-size: 0.8em;
+	} 
+	#steps h2, #steps p {
+		font-size: 0.7em;	
+	}
+	#step-one {
+		width: 65%;
+	}
+	#step-two {
+		width: 65%;
+	}
+}
+@media only screen and (max-width: 820px) {
+	#splash main {
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 775px){
+	#about {
+		background-position: center center;
+	}
+	#second-of-three {
+		width: 80%;
+		margin: 0 auto;
+	}
+	#first-of-three, #three-of-three {
+		display: none;
+	}
+}
+@media only screen and (max-width: 750px) {
+	#about article {
+		margin: 5%;
+		width: 50%;
+		height: 30%;
+		border: none;
+	}
+	#clientele h2 {
+		font-size: 1.1em;
+	}
+	#clientele h3 {
+		font-size: 0.875em;
+		width: 90%;
+	}
+	#clientele span#two {
+		font-size: 1.5em;
+	}
+	#clientele span#three {
+		font-size: 1.1em;
+	}
+	#clientele span#four {
+		font-size: 1em;
+	}
+	#clientele span#five {
+		font-size: 1.1em;
+	}
+	#contact {
+		padding-top: 5%;
+		display: block;
+		margin: auto;
+		width: auto;
+		text-align: center;
+	}
+	#contact p {
+		padding: 0;
+		display: block;
+		margin: auto;
+		width: 75%;
+		text-align: center;
+	}
+	#location-addresses {
+		margin: 0;
+		padding: 0;
+	}
+	#Baltimore, #Baltimore address, #Baltimore p {
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+	#San-Diego, #San-Diego address, #San-Diego p {
+		margin: 0;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	#Miami, #Miami address, #Miami p {
+		margin: auto;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	#Baltimore {
+		padding-top: 5%;
+	}
+	#San-Diego {
+		padding-top: 5%;
+	}
+	#Miami { 
+	padding: 5% 0 20% 0;
+	}
+	footer {
+		font-size: 0.75em;
+		display: block;
+		text-align: center;
+		line-height: 1.5em;
+	}
+}
+@media only screen and (max-width: 725px){
+	label {
+		display: block;
+		text-align: center;
+	}
+	.clearfix:after {
+  		visibility: hidden;
+  		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+	nav a {
+    	display: block;
+  	}
+	#toggle:checked + nav {
+	    display: block;
+	    clear: both;
+  	}
+	header {
+		background-color: #fafafa;
+		padding-top: 2%;
+		position: fixed;
+		top: 0;
+	}
+	nav, h1 {
+		width: 100%;
+	}
+	nav,.nav {
+		text-align: center;
+		display: block; 
+		margin: auto;
+		padding: 0;
+	}
+	h1 {
+		font-size: 1.375em;
+		text-align: center;
+		display: block; 
+		margin: 0 auto;
+		padding: 0;
+	}
+	nav {
+		font-size: 1em;
+		padding: 5%;
+		display: none;
+	}	
+	.nav {
+		padding-top: 3%;
+	}
+	#splash {
+		background: none;
+		background-color: white;
+		border-bottom: 0.0156em solid #8D9691;
+		margin-top: 40px;
+	}
+	#splash main {
+		width: 100%;
+	}
+	#splash h3::after {
+  		content: url(../images/splash2.jpg);
+  		margin-top: 5%;
+  		display: block;
+  		margin-bottom: 0;
+  		width: 100%;
+  	}
+	 #splash h2 {
+	 	font-size: 1.1em;
+	 	margin-top: 0;
+	 }
+	#splash h3 {
+		margin-right: 4%;
+		font-size: .8em;
+	}
+	#splash button {
+		font-size: 1.1em;
+		padding: 5%;
+		margin-right: 4%;
+		margin-top: 0;
+		width: 70%;
+	}
+	#splash h4 {
+		margin: 5% 0 5% 0;
+		text-align: center;
+	}
+	#about article {
+		width: 95%;
+		padding: 0 2% 0 2%;
+		margin: 5% auto;
+		background-color: white;
+	}
+	#about {
+		background: none;
+		background-color: white;
+	}
+	#steps p {
+		font-size: 0.75em;
+	}
+	#step-one {
+		width: 95%;
+		margin: 2% auto;
+	}
+	#step-two {
+		width: 95%;
+		margin: 2% auto 5%;
+	}
+}
+
+
+
+
