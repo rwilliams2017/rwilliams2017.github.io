@@ -547,16 +547,18 @@ footer a:hover {
 		padding-top: 3%;
 	}
 	#splash {
-		background: none;
+		/*background: none;*/
 		background-color: white;
 		border-bottom: 0.0156em solid #8D9691;
 		margin-top: 40px;
+
 	}
 	#splash main {
 		width: 100%;
+
 	}
 	#splash h3::after {
-  		content: url(../images/splash2.jpg);
+  		/*content: url(../images/splash2.jpg);*/
   		margin-top: 5%;
   		display: block;
   		margin-bottom: 0;
@@ -565,10 +567,12 @@ footer a:hover {
 	 #splash h2 {
 	 	font-size: 1.1em;
 	 	margin-top: 0;
+	 	margin: 15% auto 5%;
 	 }
 	#splash h3 {
 		margin-right: 4%;
 		font-size: .8em;
+		margin: 15% auto 5%;
 	}
 	#splash button {
 		font-size: 1.1em;
@@ -583,13 +587,19 @@ footer a:hover {
 	}
 	#about article {
 		width: 95%;
-		padding: 0 2% 0 2%;
+		padding: 2%;
 		margin: 5% auto;
-		background-color: white;
+		background: radial-gradient(white, #5D92B1);
+	}
+	#about span {
+		color: white;
 	}
 	#about {
 		background: none;
-		background-color: white;
+		background-color: #5D92B1;
+	}
+	#steps {
+		background-color: #E6E6FA;
 	}
 	#steps p {
 		font-size: 0.75em;
@@ -597,10 +607,12 @@ footer a:hover {
 	#step-one {
 		width: 95%;
 		margin: 2% auto;
+		background: radial-gradient(white, #fafafa);
 	}
 	#step-two {
 		width: 95%;
 		margin: 2% auto 5%;
+		background: radial-gradient(white, #fafafa);
 	}
 }
 
